@@ -1,0 +1,98 @@
+* { 
+    margin: 0;
+    padding: 0;
+    height: 100hv;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgba(150, 100, 82, 0.241);
+}
+
+h1{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    padding-bottom: 6%;
+    transform: translate(-20%,-60%);
+    color: rgb(0, 0, 0);
+}
+
+
+.menu_bar {
+    background-color:rgba(255, 0, 34, 0.207);
+    height:60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    box-shadow:0px 0px 25px black;
+
+}
+
+h2{
+   
+    padding: 7px 30px;
+    margin-right: 15px;
+    border-radius: 5px;
+    align-items: center;
+    }
+
+
+
+
+ 
+.menu_bar  ul li {
+    padding: 10px 30px;
+}
+
+.menu_bar ul li a{
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+input{
+    border: 3px  rgb(255, 116, 3);
+    height: 40px;
+    width: 600px;
+    
+}
+
+
+.predictbtn{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    font-size: larger;
+    font-family:'calibri';
+    cursor: pointer;
+    border-radius: 10px;
+    height: 40px;
+    width: 250px;
+
+    
+}
+
+.btn:hover{
+    background-color: rgb(27, 2, 255);
+    border-radius: 10px;
+    box-shadow:0px 0px 5px rgb(2, 116, 255),0px 0px 50px rgb(2, 166, 255),0px 0px 50px rgb(2, 166, 255);
+}
